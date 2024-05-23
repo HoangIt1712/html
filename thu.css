@@ -1,0 +1,423 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+html {
+    background-color: gray;
+}
+#wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+}
+#header {
+    width: 100%;
+    padding:20px 30px;
+    /* margin-top:33px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #1d1a1a;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* #logo {
+    padding: 5px 0px;
+} */
+
+/* #logo img {
+    max-width: 50px;
+    height: auto;
+} */
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: goldenrod;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #1d1a1a;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border-bottom: 1px solid #363333;
+    display: none;
+}
+
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #363333;
+    left: 0;
+}
+
+#main-menu ul.sub-menu li:hover>a{
+    border-bottom: 1px solid gold;
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+#main-menu ul.sub-menu ul.sub-menu{
+    left: 201px;
+    top: -15px;
+}
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:25px;
+}
+
+#menu #item{
+    margin-right: 300px;
+}
+
+#banner {
+    width: 100%;
+    background-image :url("../image/goldenkatanadragon.webp");
+    /* background-position: cover; */
+    background-position-y:-230px ;
+    /* background-position-x: 300px; */
+    height: 463px;
+    display: flex;
+    padding:0px 133px;
+    background-color: #1d1a1a;
+}
+
+#banner .box-left ,#banner .box-right {
+    width: 50%;
+}
+#banner  .box-left h2 {
+    font-size:40px;
+    margin-top:75px;
+    color:#fff;
+}
+
+
+
+#banner .box-left button {
+    width: 191px;
+    height: 48px;
+    margin-top:41px;
+    background:#1d1a1a;
+    border:none;
+    outline:none;
+    color:#fff;
+    font-weight: bold;
+    border-radius: 20px;
+    transition:0.4s;
+}
+
+.box-left button:hover {
+    background:goldenrod;
+}
+
+#search {
+    background: #fff;
+    border-radius: 24px;
+}
+#search #search-box {
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    background: none;
+    font-size: 12px;
+}
+
+#search #search-btn {
+    background-color: #fff;
+    border: none;
+    padding: 2px 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.subtit {  
+    max-width: 100%;
+}
+
+.section-usp-message{
+    display: flex;
+    background: rgb(0,0,0,0.79);
+}
+
+.section-subtit {
+    max-width: 1860px;
+    margin: auto;
+}
+
+.ui{
+    width: auto;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+.abc{
+    float: left;
+    margin: 20px 0 20px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: goldenrod;
+    max-width: 380px;
+}
+
+.subtit .section-subtit  {
+    padding: 30px 30px;
+    display: flex;
+}
+
+
+.upcoming-title {
+    text-align: center;
+    color: goldenrod;
+    height: 40px;
+}
+
+.upcom-auction{
+    text-align: center;
+    color: goldenrod;
+    margin-top: 50px;
+}
+
+.container{
+    padding: auto;
+    margin: auto;
+    width: 100%;
+}
+.row {
+    padding:  0;
+    margin: 0;;
+}
+.col-md-3 {
+    margin-bottom: 20px ;
+}
+
+.col-md-3 img {
+    width: 400px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.col-md-3 img:hover {
+    transform: scale(1.1);
+}
+.col-md-3 h3 {
+    color: goldenrod;
+}
+
+.upcom-border{
+    margin-top: 50px;
+}
+
+.list-upcom {
+    border-bottom: 2px solid #1d1a1a;
+}
+
+.list-item .bar {
+    display: inline-block;
+    width: auto;
+}
+
+.bar {
+    overflow: hidden;
+}
+
+.bar button {
+    white-space: normal;
+}
+
+.bar .bar-item{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden;
+    color: inherit;
+    background-color: inherit;
+    border-radius: 10px;
+}
+
+.black{
+    color: goldenrod !important;
+    background-color: #1d1a1a !important;
+}
+
+/* Featured auction */
+.featured-auctions{
+    margin-top: 50px;
+    text-align: center;
+    color: goldenrod;
+}
+h4 {
+    color: #fff;
+}
+
+.margin-item {
+    margin-top: 50px;
+}
+
+.item-f {
+    position: relative;
+}
+
+.item-f p{
+    position: absolute;
+    bottom: 65px;
+    width: 200px;
+    height: 26px;
+    max-width: 250px;
+    margin-left: 10px;
+}
+
+
+h4 {
+    position: absolute;
+    bottom:  10px;
+    max-width: 250px;
+    margin-left: 10px;
+}
+#footer {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 322px;
+    padding:0px 63px;
+    padding-top:57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#footer .box {
+    width: 250px;
+
+    color: goldenrod;
+}
+
+#footer .box .quick-menu {
+    margin-top:40px;
+
+}
+
+
+#footer .box .quick-menu .item{
+    margin-bottom:12px;
+
+}
+#footer .box .quick-menu ,.item a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#footer .box .quick-menu ,.item a:hover {
+    color: goldenrod;
+}
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background:transparent;
+    padding-left:20px;
+    color:#fff;
+    margin-top:30px;
+}
+
+#footer .box form button {
+    background:#362f2f;
+    box-shadow: 5px 5px 4px rgba(0,0,0.25);
+    width: 163px;
+    height: 38px;
+    margin-top:29px;
+    color:#ffffff;
+}
+
+
+p {
+color: #fff;
+}
+.them{
+    display: flex;
+    justify-content: space-around;
+    margin:auto;
+    
+}
+.box1{
+    background:#1d1a1a;
+    text-align: center;
+    font: size 100%;
+    width:auto !important;
+
+}
+.box2{
+    text-align: center;
+    background:#362f2f
+}
+button {
+    color: goldenrod;
+}
+button:hover {
+    font-size: 15px;
+}
+.tieude{
+    float:left
+}
+.thanh{
+    
+}
