@@ -136,7 +136,7 @@ color: #fff;
 }
 .box1{
     padding: 0;
-    background-color: #333333;
+    background-color: gray;
     max-width: 100%;
     border: 0;
     margin-bottom: 1px;
@@ -163,6 +163,8 @@ color: #fff;
     margin-bottom: 1px;
     text-align: center;
     border-radius: 15px;
+    backdrop-filter: blur(20px);
+    background: transparent;
 }
 .box4{
     border-radius: 15px;
@@ -172,7 +174,9 @@ color: #fff;
     background-color:gray;
     color: #fff;
     border: 0;
-    margin: 10px 0 0px 300px ;
+    margin: 10px 0 0px 200px ;
+    backdrop-filter: blur(20px);
+    background: transparent;
 }
 .tong{
     display: flex;
