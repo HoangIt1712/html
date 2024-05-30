@@ -20,7 +20,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;    
-    background-color: #1d1a1a;
+    background-color: black;
 }
 
 
@@ -76,7 +76,7 @@ html {
 }
 #footer {
     width: 100%;
-    background:rgb(0,0,0,0.79);
+    background:black;
     height: 322px;
     padding:0px 63px;
     padding-top:57px;
@@ -136,9 +136,8 @@ color: #fff;
 }
 .box1{
     padding: 0;
-    background-color: gray;
+    background-color: #1d1a1a;
     max-width: 100%;
-    border: 0;
     margin-bottom: 1px;
 }
 .box2{
@@ -157,32 +156,36 @@ color: #fff;
     padding: 20px 0 0 15px;
     width: 450px;
     max-width: 100%;
-    background-color: gray;
+    background-color: black;
     color: #fff;
     border: 0;
     margin-bottom: 1px;
     text-align: center;
     border-radius: 15px;
-    backdrop-filter: blur(20px);
-    background: transparent;
+    /* backdrop-filter: blur(20px);
+    background: transparent; */
+    border-radius: 15px;
 }
 .box4{
     border-radius: 15px;
     width: 350px;
     text-align: center;
     margin-bottom: 20px black;
-    background-color:gray;
+    background-color: black;
     color: #fff;
     border: 0;
-    margin: 10px 0 0px 200px ;
-    backdrop-filter: blur(20px);
-    background: transparent;
+    margin: 20px 0 20px 100px;
+    /* backdrop-filter: blur(20px);
+    background: transparent; */
 }
 .tong{
     display: flex;
     justify-content: space-between;
     
-    
+}
+.tong2{
+    display: flex;
+    justify-content: space-between;
 }
 h1{
     color: goldenrod;
@@ -197,11 +200,11 @@ button {
     background-color: goldenrod;
 }
 button:hover {
-    font-size: 15px;
+    font-size: 17px;
     color: black;
 }
 a{
-    color: blue;
+    color: rgb(67, 139, 223);
 }
 a:hover{
     font-size: 15px;
@@ -212,4 +215,16 @@ h3{
 }
 .ttong{
     background: #1d1a1a;
+}
+.wrapper{
+    width: 600px;
+    border-radius: 15px;
+    background: black;
+    margin: 20px 30px 20px 100px;
+    padding-left: 60px;
+    text-align: center;
+    
+}
+h4{
+    color: white;
 }
