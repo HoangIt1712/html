@@ -4,6 +4,11 @@ body{
     color: white;
     text-align: center;
 }
+h1{
+    font-size: 35px;
+    font-style: oblique;
+    
+}
 .box{
     padding-left: 320px;
     padding-right: 320px;
