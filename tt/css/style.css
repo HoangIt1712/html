@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(9, 125, 241);
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.box{
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-bottom: 80px;
+}
+.box1{
+    background: white;
+    color: gray;
+    display: grid;
+    padding: 40px 80px 80px 80px;
+}
+button {
+    margin-top: 30px;
+    width: 90px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(9, 125, 241);
+    
+}
+button:hover {
+    font-size: 18px;
+    color: black;
+}
+.gender{
+    text-align: left;
+    margin-top: 20px;
+}
+.item{
+    padding: 20px;
+    margin-top: 30px;
+}
+.items{
+    padding: 20px 20px 300px;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
